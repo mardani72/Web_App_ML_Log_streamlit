@@ -63,7 +63,7 @@ def add_parameter_ui(reg_name):
 	
 	if reg_name == 'Aad Boost':
 		n_estimators = st.sidebar.slider("n_estimators", 50, 500,100)
-		learning_rate = st.sidebar.slider("learning_rate", 0.1, 10.0, 1)
+		learning_rate = st.sidebar.slider("learning_rate", 0.1, 10.0, 1.0)
 		params['n_estimators'] = n_estimators
 		params['learning_rate'] = learning_rate
 

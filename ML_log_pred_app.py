@@ -234,7 +234,8 @@ st.markdown('*Blind data is a single well data that was involved in the modeling
 st.markdown('To speed up computation, we used a coarse sampling of data to decrease waiting time to see the result.')
 
 st.markdown('### **About dataset:**')
-st.markdown('The original dataset belongs to Force 2020 comptetion, you can find more data here: https://www.dataenergy.ca/opendata ')
+st.markdown('The original dataset belongs to [Force 2020 comptetion](https://zenodo.org/record/4351156)')
+st.markdown('You can find more data here: https://www.dataenergy.ca/opendata ')
 st.markdown('Looking at the summary of the dataset has shown that NPHI log is one of the most important data that is missing for some intervals.\
  We selected 3 wells (considering calculation cost) and used two of them for training and kept out one for the blind test (15/9-13) which is plotted above.')
 
